@@ -240,7 +240,6 @@ void takeOrder(const Pizza menu[], int pizzaSize, const SideDish sides[], int si
         cin >> continueOrder;
     } while (continueOrder == 'y' || continueOrder == 'Y');
 }
-
 int main() {
     const int MAX_MENU_SIZE = 10;
     const int MAX_SIDE_SIZE = 5;
