@@ -234,7 +234,6 @@ void takeOrder(const Pizza menu[], int pizzaSize, const SideDish sides[], int si
 
         // Display order summary after each item is ordered
         displayOrderSummary(totalQuantity, totalPrice);
-
         // Ask if the customer wants to continue ordering
         cout << "Do you want to order anything else? (y/n): ";
         cin >> continueOrder;
