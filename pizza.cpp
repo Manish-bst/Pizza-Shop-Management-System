@@ -223,7 +223,6 @@ void takeOrder(const Pizza menu[], int pizzaSize, const SideDish sides[], int si
                 // Update total price
                 totalPrice += price;
                 break;
-
             default:
                 cout << "Invalid choice. Please try again.\n";
                 continue; // Continue to next iteration if choice is invalid
