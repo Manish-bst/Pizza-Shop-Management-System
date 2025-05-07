@@ -208,7 +208,6 @@ void takeOrder(const Pizza menu[], int pizzaSize, const SideDish sides[], int si
                     cout << "Invalid choice. Please try again.\n";
                     continue;
                 }
-
              int drinkQuantity;
                 cout << "Enter quantity: ";
                 cin >> drinkQuantity;
