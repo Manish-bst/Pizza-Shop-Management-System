@@ -221,8 +221,6 @@ void takeOrder(const Pizza menu[], int pizzaSize, const SideDish sides[], int si
                 
                 writeOrderToFile(outFile, drinks[drinkChoice - 1].name, drinkQuantity, price);
 
-                
-
                 // Update total price
                 totalPrice += price;
                 break;
