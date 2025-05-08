@@ -211,6 +211,7 @@ void takeOrder(const Pizza menu[], int pizzaSize, const SideDish sides[], int si
              int drinkQuantity;
                 cout << "Enter quantity: ";
                 cin >> drinkQuantity;
+                
                 // Update total quantity
                 totalQuantity += drinkQuantity;
 
