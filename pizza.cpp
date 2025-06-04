@@ -227,6 +227,7 @@ void takeOrder(const Pizza menu[], int pizzaSize, const SideDish sides[], int si
                 cout << "Invalid choice. Please try again.\n";
                 continue; // Continue to next iteration if choice is invalid
         }
+        
         // Display order summary after each item is ordered
         displayOrderSummary(totalQuantity, totalPrice);
         // Ask if the customer wants to continue ordering
